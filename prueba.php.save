@@ -1,0 +1,9 @@
+<?php
+require_once("usuario.php");
+$usu = "dani";
+$cla = "1234";
+$test = new usuario();
+$test->setUsuario($usu);
+$test->setClave($cla);
+echo "el usuario se llama ". $test->getUsuario()." su contraseña es: ". $test->Z;
+?>
